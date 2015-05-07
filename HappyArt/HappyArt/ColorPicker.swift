@@ -10,7 +10,7 @@ import UIKit
 
 let numberOfRainbowColors: CGFloat = 8.0
 let numberOfColors: CGFloat = 9.0
-let numberOfSatLevels: CGFloat = 5A.0
+let numberOfSatLevels: CGFloat = 5.0
 let setBackColorSelector: Selector = "setBackColor:"
 let setToolColorSelector: Selector = "setToolColor:"
 let setBackTransparentLevelSelector: Selector = "setBackTransparentLevel:"
