@@ -275,7 +275,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTb-gH-2vU">
-                                        <rect key="frame" x="455" y="56" width="89" height="20"/>
+                                        <rect key="frame" x="455" y="55" width="89" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="8us-So-lLL"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="tzx-aM-SKc"/>
@@ -318,7 +318,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filling" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8u-zz-b75">
-                                        <rect key="frame" x="10" y="56" width="50" height="20"/>
+                                        <rect key="frame" x="10" y="55" width="50" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Jw9-WA-ewW"/>
                                         </constraints>
@@ -327,7 +327,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCr-rb-ztR">
-                                        <rect key="frame" x="70" y="50" width="51" height="31"/>
+                                        <rect key="frame" x="70" y="49" width="51" height="31"/>
                                         <connections>
                                             <action selector="switcherChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="HFs-ub-rPa"/>
                                         </connections>
@@ -396,7 +396,6 @@
                                     <constraint firstAttribute="trailing" secondItem="DwM-cR-DQM" secondAttribute="trailing" constant="10" id="iS5-Nn-2up"/>
                                     <constraint firstItem="c8u-zz-b75" firstAttribute="leading" secondItem="DwM-cR-DQM" secondAttribute="trailing" constant="10" id="jgf-TD-mY7"/>
                                     <constraint firstItem="fTb-gH-2vU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KCr-rb-ztR" secondAttribute="trailing" constant="10" id="jwH-ad-v5R"/>
-                                    <constraint firstItem="DwM-cR-DQM" firstAttribute="centerY" secondItem="fTb-gH-2vU" secondAttribute="centerY" id="kcb-Po-adn"/>
                                     <constraint firstItem="6eL-vF-3Jg" firstAttribute="leading" secondItem="ECk-pJ-Nhm" secondAttribute="trailing" constant="10" id="mDU-mA-6vi"/>
                                     <constraint firstItem="AY2-9X-Ses" firstAttribute="top" secondItem="XH6-fB-MBt" secondAttribute="top" constant="10" id="mcg-ig-nND"/>
                                     <constraint firstItem="OB2-jf-UYz" firstAttribute="height" secondItem="AY2-9X-Ses" secondAttribute="height" id="qMw-GA-Zvk"/>
