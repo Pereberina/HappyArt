@@ -1,0 +1,15 @@
+/*
+ Localizable.strings
+ HappyArt
+ 
+ Created by Jenny on 06.05.15.
+ Copyright (c) 2015 com.mipt. All rights reserved.
+ */
+
+"Brush" = "Brush";
+"Line" = "Line";
+"Rect" = "Rectangular";
+"Oval" = "Oval";
+"Rubber" = "Rubber";
+"Strong Sprayer" = "Strong Sprayer";
+"Soft Sprayer" = "Soft Sprayer";

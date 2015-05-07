@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "6eL-vF-3Jg"; */
+"6eL-vF-3Jg.normalTitle" = "Очистить";
+
+/* Class = "UINavigationItem"; title = "Wellcome to HappyArt!"; ObjectID = "8MO-IL-XFi"; */
+"8MO-IL-XFi.title" = "Добро пожаловать в HappyArt!";
+
+/* Class = "UILabel"; text = "There are no images"; ObjectID = "97Z-bO-Cw6"; */
+"97Z-bO-Cw6.text" = "Нет картинок";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "BI4-xN-bDS"; */
+"BI4-xN-bDS.text" = "Имя";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ECk-pJ-Nhm"; */
+"ECk-pJ-Nhm.normalTitle" = "Отменить";
+
+/* Class = "UINavigationItem"; title = "Save the picture"; ObjectID = "EbB-63-EWh"; */
+"EbB-63-EWh.title" = "Сохранить картинку";
+
+/* Class = "UIButton"; normalTitle = "Send to"; ObjectID = "N4l-A7-k4o"; */
+"N4l-A7-k4o.normalTitle" = "Сохранить";
+
+/* Class = "UIButton"; normalTitle = "Open picture"; ObjectID = "Pat-WE-FnD"; */
+"Pat-WE-FnD.normalTitle" = "Открыть картинку";
+
+/* Class = "UIButton"; normalTitle = "Instagram"; ObjectID = "Xqq-1M-gXC"; */
+"Xqq-1M-gXC.normalTitle" = "Отправить в Instagram";
+
+/* Class = "UIButton"; normalTitle = "Hide"; ObjectID = "YLr-de-vjW"; */
+"YLr-de-vjW.normalTitle" = "Скрыть";
+
+/* Class = "UILabel"; text = "Filling"; ObjectID = "c8u-zz-b75"; */
+"c8u-zz-b75.text" = "Заливка";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "ckp-3o-M6g"; */
+"ckp-3o-M6g.normalTitle" = "Сохранить";
+
+/* Class = "UILabel"; text = "Background"; ObjectID = "fTb-gH-2vU"; */
+"fTb-gH-2vU.text" = "Фон";
+
+/* Class = "UIButton"; normalTitle = "New picture"; ObjectID = "zwb-Kx-r6z"; */
+"zwb-Kx-r6z.normalTitle" = "Новая картинка";

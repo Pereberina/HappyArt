@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  HappyArt
+
+  Created by Jenny on 07.05.15.
+  Copyright (c) 2015 com.mipt. All rights reserved.
+*/
+
+"Brush" = "Кисть";
+"Line" = "Линия";
+"Rect" = "Прямоугольник";
+"Oval" = "Овал";
+"Rubber" = "Ластик";
+"Strong Sprayer" = "Спрэй";
+"Soft Sprayer" = "Спрэй";
+"Can't save image" = "Не удалось сохранить картинку";
+"Enter image name" = "Введите имя картинки";
+"Can't get image to post" = "Файл недоступен или поврежден";
+"Instagram App not avaible" = "Приложение Instagram недоступно";
+"You won't be able to cancel this action!" = "Это действие необратимо";
+"Delete" = "Удалить";
+"YES" = "Да";
+"NO" = "Нет";
+"OK" = "ОК";
+"Error" = "Ошибка!";
+
+
+
