@@ -11,8 +11,8 @@
 "Rect" = "Прямоугольник";
 "Oval" = "Овал";
 "Rubber" = "Ластик";
-"Strong Sprayer" = "Спрэй";
-"Soft Sprayer" = "Спрэй";
+"Strong Sprayer" = "Спрэй из линий";
+"Soft Sprayer" = "Спрэй из точек";
 "Can't save image" = "Не удалось сохранить картинку";
 "Enter image name" = "Введите имя картинки";
 "Can't get image to post" = "Файл недоступен или поврежден";
@@ -23,6 +23,7 @@
 "NO" = "Нет";
 "OK" = "ОК";
 "Error" = "Ошибка!";
+"Clear the picture?" = "Очистить лист?";
 
 
 

@@ -8,16 +8,49 @@
 
 import UIKit
 
-class ImageCell: UICollectionViewCell, UIGestureRecognizerDelegate {
+protocol ModeledView: NSObjectProtocol {
+    var viewModel: AnyObject? { get set }
+}
+class ImageCell: UICollectionViewCell, UIGestureRecognizerDelegate, ModeledView {
     @IBOutlet weak var imageView: UIImageView!
     
-    var imagePath: String?
-    var delegate: ImageDeleting?
+   
+    var viewModel: AnyObject? {
+        didSet {
+            if let data = viewModel as? ImageCellViewModel {
+                self.imageView.image = data.image
+                data.longPressRec.addTarget(self, action: "deleteImage")
+                self.imageView.addGestureRecognizer(data.longPressRec)
+                self.imageView.userInteractionEnabled = true
+                self.backgroundColor = UIColor.blackColor()
+            }
+        }
+    }
     
     func deleteImage() {
-        delegate?.deleteImage(imagePath!)
+        if let data = viewModel as? ImageCellViewModel {
+            data.deleteImage()
+        }
     }
 }
+
+class ImageCellViewModel {
+    var image: UIImage
+    var imagePath: String
+    var delegate: ImageDeleting?
+    var longPressRec = UILongPressGestureRecognizer()
+    
+    init(image: UIImage, imagePath: String, delegate: ImageDeleting) {
+        self.image = image
+        self.imagePath = imagePath
+        self.delegate = delegate
+    }
+    
+    func deleteImage() {
+        self.delegate?.deleteImage(self.imagePath)
+    }
+}
+
 
 protocol ImageOpening {
     func openImage(image: UIImage, name: String)
@@ -74,15 +107,13 @@ extension ImageOpenVC: UICollectionViewDataSource {
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = self.collectionView.dequeueReusableCellWithReuseIdentifier("ImageCell", forIndexPath: indexPath) as! ImageCell
+
         let longPressRec = UILongPressGestureRecognizer()
+        var data = ImageCellViewModel(image: self.imageSet.images.image[indexPath.row],
+                                        imagePath: self.imageSet.images.path[indexPath.row],
+                                            delegate: self)
         
-        cell.imageView.image = self.imageSet.images.image[indexPath.row]
-        cell.imagePath = self.imageSet.images.path[indexPath.row]
-        cell.delegate = self
-        longPressRec.addTarget(cell, action: "deleteImage")
-        cell.imageView.addGestureRecognizer(longPressRec)
-        cell.imageView.userInteractionEnabled = true
-        cell.backgroundColor = UIColor.blackColor()
+        cell.viewModel = data
         
         return cell
     }

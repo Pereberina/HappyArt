@@ -196,10 +196,10 @@
                                 <gestureRecognizers/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3e9-ak-VfR" userLabel="ViewForPicker">
-                                <rect key="frame" x="120" y="183" width="360" height="234"/>
+                                <rect key="frame" x="90" y="164" width="420" height="273"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vcu-Im-TXI">
-                                        <rect key="frame" x="8" y="27" width="344" height="180"/>
+                                        <rect key="frame" x="8" y="29" width="404" height="216"/>
                                         <connections>
                                             <outlet property="dataSource" destination="BYZ-38-t0r" id="Wwr-1Y-wh6"/>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="xn1-ky-Otc"/>
@@ -421,7 +421,7 @@
                             <constraint firstItem="yxv-MR-Pff" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="H3j-84-XHW"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XH6-fB-MBt" secondAttribute="bottom" id="IOf-0O-2DW"/>
                             <constraint firstAttribute="trailing" secondItem="yxv-MR-Pff" secondAttribute="trailing" id="KyT-GS-sUp"/>
-                            <constraint firstItem="3e9-ak-VfR" firstAttribute="width" secondItem="ZDx-40-st0" secondAttribute="width" multiplier="0.6" id="Qeu-WH-EtP"/>
+                            <constraint firstItem="3e9-ak-VfR" firstAttribute="width" secondItem="ZDx-40-st0" secondAttribute="width" multiplier="0.7" id="Qeu-WH-EtP"/>
                             <constraint firstItem="ZDx-40-st0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ZMV-g2-8Z8"/>
                             <constraint firstAttribute="centerY" secondItem="3e9-ak-VfR" secondAttribute="centerY" id="agz-TC-jjh"/>
                             <constraint firstItem="XH6-fB-MBt" firstAttribute="width" secondItem="ZDx-40-st0" secondAttribute="width" id="fnG-xb-JTp"/>

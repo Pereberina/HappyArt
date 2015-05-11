@@ -34,9 +34,11 @@ class ImageSaveVC: UIViewController, UIDocumentInteractionControllerDelegate {
         imageName.text = defaultName?.stringByDeletingPathExtension
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        self.navigationController?.navigationBar.backItem!.title = "Back"
     }
+
     
     @IBAction func saveImage(sender: UIButton) {
         image = delegate?.takeImage()

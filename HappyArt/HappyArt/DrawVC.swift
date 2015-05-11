@@ -103,13 +103,20 @@ class DrawVC: UIViewController {
     }
     
     @IBAction func cancelAll(sender: UIButton) {
-        self.drawRect.removeAll()
-        if openedImage.openedImageExists == true {
-            self.drawRect.changeBackColor(UIColor(patternImage: openedImage.image!))
-        } else {
-            self.drawRect.changeBackColor(UIColor.whiteColor())
-        }
-        self.drawRect.changeToolColor(UIColor.blackColor())
+        let tapAlert = UIAlertController(title: NSLocalizedString("Clear the picture?", comment: "Title"), message: NSLocalizedString("You won't be able to cancel this action!", comment: "Message"), preferredStyle: UIAlertControllerStyle.Alert)
+
+        tapAlert.addAction(UIAlertAction(title: NSLocalizedString("YES", comment: "Agree"), style: .Destructive,
+            handler: { action in
+                self.drawRect.removeAll()
+                if self.openedImage.openedImageExists == true {
+                    self.drawRect.changeBackColor(UIColor(patternImage: self.openedImage.image!))
+                } else {
+                    self.drawRect.changeBackColor(UIColor.whiteColor())
+                }
+                self.drawRect.changeToolColor(UIColor.blackColor())
+        }))
+        tapAlert.addAction(UIAlertAction(title: NSLocalizedString("NO", comment: "Cancel"), style: .Cancel, handler: nil))
+        self.presentViewController(tapAlert, animated: true, completion: nil)
     }
     
     @IBAction func changeTool(sender: UIButton) {

@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3EE1819B-44D7-4D04-BA0E-7C4856ED44D3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>HappyArt</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1681FCCD93A5981DE06F56B239609DE1D26C182E</key>
-		<string>https://github.com/awant/HappyArt.git</string>
+		<key>C4D5C3905B30F13DDA5912E9EF0E57D9BED39A83</key>
+		<string>https://github.com/Pereberina/HappyArt.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HappyArt/HappyArt.xcodeproj/project.xcworkspace</string>
+	<string>HappyArt/HappyArt.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1681FCCD93A5981DE06F56B239609DE1D26C182E</key>
+		<key>C4D5C3905B30F13DDA5912E9EF0E57D9BED39A83</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/awant/HappyArt.git</string>
+	<string>https://github.com/Pereberina/HappyArt.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1681FCCD93A5981DE06F56B239609DE1D26C182E</string>
+	<string>C4D5C3905B30F13DDA5912E9EF0E57D9BED39A83</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1681FCCD93A5981DE06F56B239609DE1D26C182E</string>
+			<string>C4D5C3905B30F13DDA5912E9EF0E57D9BED39A83</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HappyArt</string>
+			<string>HappyArt1</string>
 		</dict>
 	</array>
 </dict>
